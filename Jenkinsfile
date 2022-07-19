@@ -7,11 +7,13 @@ pipeline{
        
         }
       }
-     stages{
-      stage("test"){
+     
+      stage("test") {
         steps{
         echo "testing an application"
        
         }
       } 
+    }
+    
       
